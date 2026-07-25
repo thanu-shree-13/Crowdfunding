@@ -1,153 +1,173 @@
-# CrowdfundChain
+# CryptoCrowd – Fraud-Aware Decentralized Crowdfunding dApp
 
-CrowdfundChain is a blockchain-based crowdfunding platform where users can create fundraising campaigns and receive donations through cryptocurrency. The main purpose of this project is to make crowdfunding more transparent and secure by using Ethereum smart contracts.
-
-Along with blockchain, the project also includes AI features that help generate campaign descriptions and detect potentially fraudulent campaigns before they are published.
+CryptoCrowd is a decentralized crowdfunding application built on the Ethereum Sepolia Testnet. The platform allows users to create fundraising campaigns, donate securely through MetaMask, and manage funds using smart contracts. To improve trust and transparency, the project includes rule-based fraud detection and AI-assisted campaign description generation.
 
 ## Features
 
 - Create crowdfunding campaigns
 - Connect wallet using MetaMask
-- Donate using Ethereum
-- Withdraw funds after reaching the funding goal
-- Refund donors if the campaign is unsuccessful
+- Donate with Ethereum (Sepolia Testnet)
+- Automatic refunds if the campaign target is not met
+- Secure withdrawal of funds after successful campaigns
+- Rule-based fraud detection for suspicious campaigns
 - AI-generated campaign descriptions
-- AI-based fraud detection
-- View campaign and donation details on the blockchain
+- Transparent campaign and transaction details on the blockchain
 
-## Built With
+## Tech Stack
 
 ### Frontend
 - React.js
+- JavaScript
 - HTML
 - CSS
-- JavaScript
 
 ### Blockchain
 - Solidity
 - Hardhat
 - Ethers.js
 - MetaMask
-- Sepolia Testnet
+- Ethereum Sepolia Testnet
 
 ### AI
 - AI API for campaign description generation
-- AI fraud detection module
+- Rule-based fraud detection
 
 ## Project Structure
 
 ```
-CrowdfundChain
+CryptoCrowd/
 │
-├── client
-├── smart-contract
-├── ai-server
+├── client/                 # React frontend
+├── smart-contract/         # Solidity contracts
+├── ai-server/              # AI services
+├── scripts/                # Deployment scripts
+├── package.json
 └── README.md
 ```
 
-## Getting Started
+## Installation
 
-### Clone the repository
-
-```bash
-git clone https://github.com/your-username/CrowdfundChain.git
-```
-
-Move into the project folder.
+Clone the repository
 
 ```bash
-cd CrowdfundChain
+git clone https://github.com/<your-username>/CryptoCrowd.git
 ```
 
-Install dependencies.
+Move into the project directory
 
-Frontend
+```bash
+cd CryptoCrowd
+```
+
+Install frontend dependencies
 
 ```bash
 cd client
 npm install
 ```
 
-Smart Contract
+Install smart contract dependencies
 
 ```bash
-cd smart-contract
+cd ../smart-contract
 npm install
 ```
 
-AI Server
+Install AI server dependencies
 
 ```bash
-cd ai-server
+cd ../ai-server
 npm install
+```
+
+## Environment Variables
+
+Create a `.env` file inside the required folders and add the following values.
+
+```env
+PRIVATE_KEY=your_wallet_private_key
+SEPOLIA_RPC_URL=your_rpc_url
+CONTRACT_ADDRESS=deployed_contract_address
+AI_API_KEY=your_ai_api_key
 ```
 
 ## Running the Project
 
-Start the frontend.
+Start the React application
 
 ```bash
 npm start
 ```
 
-Start the AI server.
-
-```bash
-npm run dev
-```
-
-Compile the smart contracts.
+Compile smart contracts
 
 ```bash
 npx hardhat compile
 ```
 
-Deploy to the Sepolia network.
+Deploy contracts
 
 ```bash
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
-## Environment Variables
+Start the AI server
 
-Create a `.env` file and add the required values.
-
-```env
-PRIVATE_KEY=
-SEPOLIA_RPC_URL=
-CONTRACT_ADDRESS=
-AI_API_KEY=
+```bash
+npm run dev
 ```
 
-## How the Project Works
+## How It Works
 
-1. Connect MetaMask.
-2. Create a fundraising campaign.
-3. AI checks the campaign for possible fraud and can generate a description.
-4. If the campaign passes the checks, it is stored on the blockchain.
-5. Other users can donate to the campaign.
-6. When the target amount is reached, the campaign owner can withdraw the funds.
-7. If the campaign expires without reaching the target, donors can request refunds.
+1. Users connect their MetaMask wallet.
+2. A campaign can be created by providing the required details.
+3. The fraud detection module analyzes the campaign for suspicious patterns.
+4. AI can generate a campaign description if needed.
+5. Approved campaigns are deployed and stored on the blockchain.
+6. Users donate ETH through MetaMask.
+7. If the funding goal is reached before the deadline, the campaign owner can withdraw the funds.
+8. If the funding goal is not achieved, donors can claim refunds through the smart contract.
 
 ## Smart Contract Functions
 
-- createCampaign()
-- donateToCampaign()
-- withdraw()
-- refund()
-- getCampaigns()
-- getDonators()
+| Function | Description |
+|----------|-------------|
+| `createCampaign()` | Creates a new fundraising campaign |
+| `donateToCampaign()` | Sends ETH to a campaign |
+| `withdraw()` | Allows the campaign owner to withdraw funds after reaching the target |
+| `refund()` | Returns ETH to donors if the campaign fails |
+| `getCampaigns()` | Returns all campaign details |
+| `getDonators()` | Returns the list of donors for a campaign |
+
+## Screenshots
+
+Add screenshots of:
+
+- Home Page
+- Create Campaign
+- Campaign Details
+- Donation Flow
+- Fraud Detection Result
+- Withdraw Page
+- Refund Page
 
 ## Future Improvements
 
-Some features that can be added later:
-
-- Support for multiple blockchains
+- Multi-chain support
+- User authentication
+- Campaign analytics dashboard
 - NFT rewards for donors
-- Better analytics dashboard
-- Mobile application
-- User profile and campaign history
+- IPFS storage for campaign media
+- Mobile-friendly interface
 
 ## Author
 
-Developed as a final-year blockchain project.
+Developed as a blockchain-based crowdfunding project using Ethereum smart contracts, React.js, and AI integration.
+
+```
+
+### Why this README is good
+- Looks like a real GitHub project written by a student/developer.
+- Professional but not filled with AI-style marketing language.
+- Includes everything recruiters expect (features, tech stack, installation, usage, project flow).
+- Matches the project description on your resume, making it consistent during interviews.
