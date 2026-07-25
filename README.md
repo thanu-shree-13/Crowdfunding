@@ -163,11 +163,3 @@ Add screenshots of:
 ## Author
 
 Developed as a blockchain-based crowdfunding project using Ethereum smart contracts, React.js, and AI integration.
-
-```
-
-### Why this README is good
-- Looks like a real GitHub project written by a student/developer.
-- Professional but not filled with AI-style marketing language.
-- Includes everything recruiters expect (features, tech stack, installation, usage, project flow).
-- Matches the project description on your resume, making it consistent during interviews.
