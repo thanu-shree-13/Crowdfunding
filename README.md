@@ -1,63 +1,153 @@
-# CrowdFunding Using BlockChain
+# CrowdfundChain
 
-A decentralized crowdfunding platform leveraging blockchain technology to empower users to create and support campaigns for various causes. The platform facilitates seamless interaction between campaign creators and donors while ensuring transparency, security, and accessibility.
+CrowdfundChain is a blockchain-based crowdfunding platform where users can create fundraising campaigns and receive donations through cryptocurrency. The main purpose of this project is to make crowdfunding more transparent and secure by using Ethereum smart contracts.
 
-![metamask](https://1000logos.net/wp-content/uploads/2022/05/MetaMask-Symbol-1536x864.png)
+Along with blockchain, the project also includes AI features that help generate campaign descriptions and detect potentially fraudulent campaigns before they are published.
 
 ## Features
-- Connect wallet
-- Create campaign
-- Create donation
-- List campaigns
-- Filter campaigns
-- List donations
-- List user campaigns
-- Disconnect wallet
 
-## Tech Stack
-**Frontend:** React (Vite.js), TailwindCSS  
-**Backend:** Solidity smart contract, Hardhat  
-**Wallet:** MetaMask  
-**Network:** Sepolia Testnet  
+- Create crowdfunding campaigns
+- Connect wallet using MetaMask
+- Donate using Ethereum
+- Withdraw funds after reaching the funding goal
+- Refund donors if the campaign is unsuccessful
+- AI-generated campaign descriptions
+- AI-based fraud detection
+- View campaign and donation details on the blockchain
 
-## Run Locally
+## Built With
 
-Clone the project
-```bash
-git clone https://github.com/thanu-shree-13/Crowdfunding.git
+### Frontend
+- React.js
+- HTML
+- CSS
+- JavaScript
+
+### Blockchain
+- Solidity
+- Hardhat
+- Ethers.js
+- MetaMask
+- Sepolia Testnet
+
+### AI
+- AI API for campaign description generation
+- AI fraud detection module
+
+## Project Structure
+
+```
+CrowdfundChain
+│
+├── client
+├── smart-contract
+├── ai-server
+└── README.md
 ```
 
-Go to the project directory
+## Getting Started
+
+### Clone the repository
+
 ```bash
-cd Crowdfunding
+git clone https://github.com/your-username/CrowdfundChain.git
 ```
 
-Go to the frontend directory
+Move into the project folder.
+
 ```bash
-cd Frontend
+cd CrowdfundChain
 ```
 
-Install dependencies
+Install dependencies.
+
+Frontend
+
 ```bash
+cd client
 npm install
 ```
 
-Start the dev server
+Smart Contract
+
+```bash
+cd smart-contract
+npm install
+```
+
+AI Server
+
+```bash
+cd ai-server
+npm install
+```
+
+## Running the Project
+
+Start the frontend.
+
+```bash
+npm start
+```
+
+Start the AI server.
+
 ```bash
 npm run dev
 ```
 
-## Run Locally (Backend)
-See the `README.md` file inside the `backend` directory for contract compilation and deployment steps.
+Compile the smart contracts.
+
+```bash
+npx hardhat compile
+```
+
+Deploy to the Sepolia network.
+
+```bash
+npx hardhat run scripts/deploy.js --network sepolia
+```
+
+## Environment Variables
+
+Create a `.env` file and add the required values.
+
+```env
+PRIVATE_KEY=
+SEPOLIA_RPC_URL=
+CONTRACT_ADDRESS=
+AI_API_KEY=
+```
+
+## How the Project Works
+
+1. Connect MetaMask.
+2. Create a fundraising campaign.
+3. AI checks the campaign for possible fraud and can generate a description.
+4. If the campaign passes the checks, it is stored on the blockchain.
+5. Other users can donate to the campaign.
+6. When the target amount is reached, the campaign owner can withdraw the funds.
+7. If the campaign expires without reaching the target, donors can request refunds.
+
+## Smart Contract Functions
+
+- createCampaign()
+- donateToCampaign()
+- withdraw()
+- refund()
+- getCampaigns()
+- getDonators()
+
+## Future Improvements
+
+Some features that can be added later:
+
+- Support for multiple blockchains
+- NFT rewards for donors
+- Better analytics dashboard
+- Mobile application
+- User profile and campaign history
 
 ## Author
-- [@thanu-shree-13](https://github.com/thanu-shree-13)
 
-## Acknowledgements
-This project was built while following along with a helpful tutorial. Full credit to the original creator for the walkthrough:
-- [YouTube Tutorial](https://youtu.be/qDqJZl32oN4)
-- [Thirdweb Docs](https://portal.thirdweb.com/contracts/deploy/overview)
-- [Vite Docs](https://vitejs.dev/guide/)
-
-## License
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+Developed as a final-year blockchain project.
