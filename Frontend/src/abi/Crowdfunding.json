@@ -1,0 +1,155 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "name": "CampaignCreated",
+    "type": "event",
+    "inputs": [
+      { "indexed": true, "name": "id", "type": "uint256" },
+      { "indexed": true, "name": "owner", "type": "address" },
+      { "indexed": false, "name": "title", "type": "string" }
+    ]
+  },
+  {
+    "name": "DonationReceived",
+    "type": "event",
+    "inputs": [
+      { "indexed": true, "name": "id", "type": "uint256" },
+      { "indexed": true, "name": "donor", "type": "address" },
+      { "indexed": false, "name": "amount", "type": "uint256" }
+    ]
+  },
+  {
+    "name": "FundsWithdrawn",
+    "type": "event",
+    "inputs": [
+      { "indexed": true, "name": "id", "type": "uint256" },
+      { "indexed": true, "name": "owner", "type": "address" },
+      { "indexed": false, "name": "amount", "type": "uint256" }
+    ]
+  },
+  {
+    "name": "Refunded",
+    "type": "event",
+    "inputs": [
+      { "indexed": true, "name": "id", "type": "uint256" },
+      { "indexed": true, "name": "donor", "type": "address" },
+      { "indexed": false, "name": "amount", "type": "uint256" }
+    ]
+  },
+  {
+    "name": "createCampaign",
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      { "name": "_title", "type": "string" },
+      { "name": "_description", "type": "string" },
+      { "name": "_target", "type": "uint256" },
+      { "name": "_deadline", "type": "uint256" },
+      { "name": "_image", "type": "string" }
+    ],
+    "outputs": [{ "type": "uint256" }]
+  },
+  {
+    "name": "donateToCampaign",
+    "type": "function",
+    "stateMutability": "payable",
+    "inputs": [{ "name": "_id", "type": "uint256" }],
+    "outputs": []
+  },
+  {
+    "name": "withdraw",
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "inputs": [{ "name": "_id", "type": "uint256" }],
+    "outputs": []
+  },
+  {
+    "name": "refund",
+    "type": "function",
+    "stateMutability": "nonpayable",
+    "inputs": [{ "name": "_id", "type": "uint256" }],
+    "outputs": []
+  },
+  {
+    "name": "getCampaigns",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [
+      {
+        "components": [
+          { "name": "owner", "type": "address" },
+          { "name": "title", "type": "string" },
+          { "name": "description", "type": "string" },
+          { "name": "target", "type": "uint256" },
+          { "name": "deadline", "type": "uint256" },
+          { "name": "amountCollected", "type": "uint256" },
+          { "name": "withdrawableAmount", "type": "uint256" },
+          { "name": "image", "type": "string" },
+          { "name": "fraudScore", "type": "uint256" },
+          { "name": "isFlagged", "type": "bool" },
+          { "name": "withdrawn", "type": "bool" },
+          { "name": "cancelled", "type": "bool" }
+        ],
+        "type": "tuple[]"
+      }
+    ]
+  },
+  {
+    "name": "getDonation",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [
+      { "name": "_id", "type": "uint256" },
+      { "name": "_donor", "type": "address" }
+    ],
+    "outputs": [{ "type": "uint256" }]
+  },
+  {
+    "name": "getTransactions",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [{ "name": "_id", "type": "uint256" }],
+    "outputs": [
+      {
+        "components": [
+          { "name": "donor", "type": "address" },
+          { "name": "amount", "type": "uint256" },
+          { "name": "timestamp", "type": "uint256" }
+        ],
+        "type": "tuple[]"
+      }
+    ]
+  },
+  {
+    "name": "numberOfCampaigns",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [],
+    "outputs": [{ "type": "uint256" }]
+  },
+  {
+    "name": "campaigns",
+    "type": "function",
+    "stateMutability": "view",
+    "inputs": [{ "type": "uint256" }],
+    "outputs": [
+      { "name": "owner", "type": "address" },
+      { "name": "title", "type": "string" },
+      { "name": "description", "type": "string" },
+      { "name": "target", "type": "uint256" },
+      { "name": "deadline", "type": "uint256" },
+      { "name": "amountCollected", "type": "uint256" },
+      { "name": "withdrawableAmount", "type": "uint256" },
+      { "name": "image", "type": "string" },
+      { "name": "fraudScore", "type": "uint256" },
+      { "name": "isFlagged", "type": "bool" },
+      { "name": "withdrawn", "type": "bool" },
+      { "name": "cancelled", "type": "bool" }
+    ]
+  }
+]
