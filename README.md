@@ -40,40 +40,98 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 ## Screenshots
 
 ### Homepage
-![Homepage](screenshots/01-homepage.png)
+
+The landing page provides an overview of active crowdfunding campaigns and allows users to connect their MetaMask wallet.
+
+![Homepage](Screenshots/01-homepage.png)
+
+---
 
 ### Creating a Campaign (AI-Assisted)
-Describe a campaign idea in plain language — the AI assistant generates a title and description, and produces a live fraud-risk score with visible risk factors.
 
-![Create Campaign](screenshots/02-create-campaign.png)
-![AI-Generated Description & Fraud Score](screenshots/03-ai-fraud-score.png)
+Users can describe their campaign idea in plain language. The AI assistant generates a professional title, detailed description, and performs an initial fraud-risk assessment before submission.
+
+![Create Campaign](Screenshots/02-create-campaign.png)
+
+![AI Generated Description & Fraud Score](Screenshots/03-ai-fraud-score-1.png)
+
+![Fraud Risk Analysis](Screenshots/03-ai-fraud-score-2.png)
+
+---
 
 ### On-Chain Campaign Creation
-Campaign metadata is written on-chain via a MetaMask transaction.
 
-![MetaMask — Create Campaign](screenshots/04-metamask-create.png)
+Campaign creation is confirmed through a MetaMask transaction before being recorded on the Ethereum Sepolia blockchain.
+
+![MetaMask Create](Screenshots/04-metamask-create.png)
+
+---
 
 ### Campaign Details & Funding
-![Campaign Details](screenshots/05-campaign-details.png)
-![MetaMask — Donate to Campaign](screenshots/06-metamask-donate.png)
-![Post-Donation Fraud Verification](screenshots/07-fraud-verified.png)
+
+Each campaign displays funding progress, campaign information, and allows users to donate securely through MetaMask.
+
+![Campaign Details](Screenshots/05-campaign-details.png)
+
+![MetaMask Donation](Screenshots/06-metamask-donate.png)
+
+![Blockchain Fraud Verification](Screenshots/07-fraud-verified-1.png)
+
+![Fraud Verification Complete](Screenshots/07-fraud-verified-2.png)
+
+---
 
 ### Browse Campaigns
-![All Campaigns](screenshots/08-all-campaigns.png)
 
-### Withdraw & Refund
-![Withdraw Dashboard](screenshots/09-withdraw-dashboard.png)
-![Withdrawal Confirmation & Success](screenshots/11-withdraw-success.png)
+Users can browse all active campaigns with funding progress, deadlines, and fraud status indicators.
+
+![All Campaigns](Screenshots/08-all-campaigns.png)
+
+---
+
+### Withdraw & Refund Dashboard
+
+Campaign owners can manage withdrawals after reaching the funding threshold. Donors can claim refunds for unsuccessful campaigns.
+
+![Withdraw Dashboard](Screenshots/09-withdraw-dashboard.png)
+
+> **Note:** Refund workflow screenshots will be added after final testing.
+
+---
 
 ### User Dashboard
-![Profile Dashboard](screenshots/10-user-dashboard.png)
+
+The profile dashboard summarizes campaigns created, donations, funds raised, and blockchain activity.
+
+![User Dashboard](Screenshots/10-user-dashboard.png)
+
+---
+
+### Successful Withdrawal
+
+The withdrawal process is completed through MetaMask confirmation and recorded on-chain.
+
+![Withdraw Confirmation](Screenshots/11-withdraw-confirm.png)
+
+![MetaMask Withdrawal](Screenshots/11-withdraw-metamask.png)
+
+![Withdrawal Successful](Screenshots/11-withdraw-success.png)
+
+---
 
 ### Blockchain Transaction History
-![Transaction History](screenshots/12-transaction-history.png)
+
+Every campaign creation, donation, withdrawal, and refund is permanently recorded and displayed through the transaction history page.
+
+![Transaction History](Screenshots/12-transaction-history.png)
+
+---
 
 ### Inactive / Completed Campaigns
-![Inactive Campaigns](screenshots/13-inactive-campaigns.png)
 
+Campaigns that have reached their deadline or have been completed are automatically moved to the inactive campaigns section.
+
+![Inactive Campaigns](Screenshots/13-inactive-campaigns.png)
 ---
 
 ## Tech Stack
