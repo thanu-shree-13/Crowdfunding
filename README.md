@@ -22,103 +22,105 @@ A full-stack decentralized crowdfunding platform built on **Ethereum Sepolia** t
 
 ---
 
-# Screenshots
+## Screenshots
 
-## Homepage
+### Homepage
 
-Users can browse active campaigns and connect their MetaMask wallet.
-
-![Homepage](Screenshots/01-homepage.png)
+![Homepage](Screenshots/Screenshot%20(1075).png)
 
 ---
 
-## AI-Assisted Campaign Creation
+### Create Campaign
 
-Users describe their idea and AI generates a professional title, detailed description, and fraud analysis.
-
-![Create Campaign](Screenshots/02-create-campaign.png)
-
-![AI Description](Screenshots/03-ai-fraud-score-1.png)
-
-![Fraud Analysis](Screenshots/03-ai-fraud-score-2.png)
+![Create Campaign](Screenshots/Screenshot%20(1076).png)
 
 ---
 
-## MetaMask Campaign Creation
+### AI Generated Campaign
 
-Campaign creation is confirmed through MetaMask before being stored on-chain.
+![AI Generated Description](Screenshots/Screenshot%20(1077).png)
 
-![MetaMask Create](Screenshots/04-metamask-create.png)
-
----
-
-## Campaign Details
-
-Campaign page showing progress, details, and secure donation functionality.
-
-![Campaign Details](Screenshots/05-campaign-details.png)
-
-![MetaMask Donate](Screenshots/06-metamask-donate.png)
-
-![Fraud Verification](Screenshots/07-fraud-verified-1.png)
-
-![Verification Complete](Screenshots/07-fraud-verified-2.png)
+![Fraud Score](Screenshots/Screenshot%20(1078).png)
 
 ---
 
-## Browse Campaigns
+### MetaMask Campaign Creation
 
-Browse all active campaigns with funding progress and fraud status.
-
-![Campaign List](Screenshots/08-all-campaigns.png)
+![MetaMask Create](Screenshots/Screenshot%20(1079).png)
 
 ---
 
-## Withdraw Dashboard
+### Campaign Details
 
-Campaign owners can withdraw funds after reaching the funding threshold.
+![Campaign Details](Screenshots/Screenshot%20(1080).png)
 
-![Withdraw Dashboard](Screenshots/09-withdraw-dashboard.png)
+![MetaMask Donation](Screenshots/Screenshot%20(1081).png)
 
-> Refund workflow screenshots will be added after final testing.
-
----
-
-## User Dashboard
-
-Displays user profile, campaigns created, donations, funds raised, and blockchain activity.
-
-![User Dashboard](Screenshots/10-user-dashboard.png)
+![Fraud Verification](Screenshots/Screenshot%20(1082).png)
 
 ---
 
-## Successful Withdrawal
+### Browse Campaigns
 
-Withdrawal confirmation through MetaMask.
-
-![Withdraw Confirm](Screenshots/11-withdraw-confirm.png)
-
-![MetaMask Withdrawal](Screenshots/11-withdraw-metamask.png)
-
-![Withdrawal Success](Screenshots/11-withdraw-success.png)
+![All Campaigns](Screenshots/Screenshot%20(1086).png)
 
 ---
 
-## Transaction History
+### Withdraw Dashboard
 
-Complete blockchain transaction history including donations, withdrawals, refunds, and campaign creation.
-
-![Transaction History](Screenshots/12-transaction-history.png)
+![Withdraw Dashboard](Screenshots/Screenshot%20(1088).png)
 
 ---
 
-## Inactive Campaigns
+### User Dashboard
 
-Campaigns automatically move here after expiration or completion.
-
-![Inactive Campaigns](Screenshots/13-inactive-campaigns.png)
+![User Dashboard](Screenshots/Screenshot%20(1089).png)
 
 ---
+
+### Withdrawal Process
+
+![Withdraw Confirmation](Screenshots/Screenshot%20(1090).png)
+
+![MetaMask Withdrawal](Screenshots/Screenshot%20(1091).png)
+
+![Withdrawal Success](Screenshots/Screenshot%20(1092).png)
+
+---
+
+### Transaction History
+
+![Transaction History](Screenshots/Screenshot%20(1096).png)
+
+---
+
+### Profile Dashboard
+
+![Profile Dashboard](Screenshots/Screenshot%20(1102).png)
+
+---
+
+### Campaign Statistics
+
+![Campaign Statistics](Screenshots/Screenshot%20(1103).png)
+
+---
+
+### User Activity
+
+![User Activity](Screenshots/Screenshot%20(1104).png)
+
+---
+
+### Inactive Campaigns
+
+![Inactive Campaigns](Screenshots/Screenshot%20(1105).png)
+
+---
+
+### Completed Campaigns
+
+![Completed Campaigns](Screenshots/Screenshot%20(1106).png)
 
 # Tech Stack
 
