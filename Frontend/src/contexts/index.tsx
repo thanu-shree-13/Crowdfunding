@@ -64,7 +64,7 @@ export const StateContext = createContext<StateContextType>({
 
 export function StateContextProvider({ children }: { children: ReactNode }) {
   const { contract } = useContract(
-    "0x472c5F063087330b8fd9ca6B5b6E60033699879C",
+    "0xf2B9A77491e6B47fe2265FEAC130BF78513A4402",
     Crowdfunding
   );
 
