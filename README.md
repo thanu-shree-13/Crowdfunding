@@ -17,7 +17,7 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 - [How It Works](#how-it-works)
 - [Known Limitations](#known-limitations)
 - [Roadmap](#roadmap)
-- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -124,7 +124,7 @@ Campaigns scoring **50 or above** are automatically flagged and blocked from rec
 ### Prerequisites
 - Node.js and npm
 - MetaMask browser extension
-- Sepolia testnet ETH ([faucet links])
+- Sepolia testnet ETH — get some from a faucet such as [Alchemy Sepolia Faucet](https://www.alchemy.com/faucets/ethereum-sepolia) or [Google Cloud Web3 Faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia)
 
 ### Installation
 
@@ -165,9 +165,8 @@ npx hardhat run scripts/deploy.js --network sepolia
 5. If a campaign reaches 80% of its target by the deadline, the owner can withdraw funds.
 6. If it doesn't, donors can claim a full refund.
 7. All transactions are recorded and viewable on-chain.
-8. Expired or completed campaigns move automatically to the Inactive Campaigns section.
-9. Users can view their profile to track campaigns, donations, and blockchain transaction history.
-10. Expired or completed campaigns are automatically displayed in the Inactive Campaigns section.
+8. Users can view their profile to track campaigns, donations, and blockchain transaction history.
+9. Expired or completed campaigns are automatically moved to the Inactive Campaigns section.
 
 ---
 
@@ -188,10 +187,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 - [ ] Mainnet deployment considerations
 
 ---
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
