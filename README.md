@@ -253,4 +253,4 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Built by [Your Name] as a final-year project.
+Built by Thanushree as a final-year project.
