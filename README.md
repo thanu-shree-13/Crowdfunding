@@ -201,6 +201,3 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ---
 
-## Author
-
-Built by [Your Name] as a final-year project.
