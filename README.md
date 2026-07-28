@@ -17,7 +17,7 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 - [How It Works](#how-it-works)
 - [Known Limitations](#known-limitations)
 - [Roadmap](#roadmap)
-- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -70,7 +70,12 @@ Campaign metadata is written on-chain via a MetaMask transaction.
 ![Withdraw Dashboard — Successful Campaign](Screenshots/Screenshot%20(1102).png)
 ![MetaMask — Withdraw Confirmation](Screenshots/Screenshot%20(1103).png)
 ![Withdrawal Successful](Screenshots/Screenshot%20(1104).png)
-*(Refund flow screenshot pending — will be added after testing.)*
+
+**Refund Flow** — donors reclaim funds from a campaign that ended without meeting its threshold.
+
+![Claim Refund — Ended Campaign](Screenshots/Screenshot%202026-07-28%20115454.png)
+![MetaMask — Refund Confirmation](Screenshots/Screenshot%20(1122).png)
+![Refund Reflected in Transaction History](Screenshots/Screenshot%20(1124).png)
 
 ### User Dashboard
 ![Profile Dashboard](Screenshots/Screenshot%20(1096).png)
@@ -195,7 +200,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 - [ ] Mainnet deployment considerations
 
 ---
-
 
 ## Author
 
