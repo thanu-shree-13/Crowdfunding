@@ -39,99 +39,48 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 
 ## Screenshots
 
+> Screenshots are stored in the `Screenshots/` folder of this repo, referenced below by their original filenames.
+
 ### Homepage
-
-The landing page provides an overview of active crowdfunding campaigns and allows users to connect their MetaMask wallet.
-
-![Homepage](Screenshots/01-homepage.png)
-
----
+![Homepage](Screenshots/Screenshot%20(1075).png)
 
 ### Creating a Campaign (AI-Assisted)
+Describe a campaign idea in plain language — the AI assistant generates a title and description, and produces a live fraud-risk score with visible risk factors.
 
-Users can describe their campaign idea in plain language. The AI assistant generates a professional title, detailed description, and performs an initial fraud-risk assessment before submission.
-
-![Create Campaign](Screenshots/02-create-campaign.png)
-
-![AI Generated Description & Fraud Score](Screenshots/03-ai-fraud-score-1.png)
-
-![Fraud Risk Analysis](Screenshots/03-ai-fraud-score-2.png)
-
----
+![Create Campaign](Screenshots/Screenshot%20(1076).png)
+![AI-Generated Description & Fraud Score](Screenshots/Screenshot%20(1077).png)
+![AI-Generated Description — Full](Screenshots/Screenshot%20(1078).png)
 
 ### On-Chain Campaign Creation
+Campaign metadata is written on-chain via a MetaMask transaction.
 
-Campaign creation is confirmed through a MetaMask transaction before being recorded on the Ethereum Sepolia blockchain.
-
-![MetaMask Create](Screenshots/04-metamask-create.png)
-
----
+![MetaMask — Create Campaign](Screenshots/Screenshot%20(1079).png)
 
 ### Campaign Details & Funding
-
-Each campaign displays funding progress, campaign information, and allows users to donate securely through MetaMask.
-
-![Campaign Details](Screenshots/05-campaign-details.png)
-
-![MetaMask Donation](Screenshots/06-metamask-donate.png)
-
-![Blockchain Fraud Verification](Screenshots/07-fraud-verified-1.png)
-
-![Fraud Verification Complete](Screenshots/07-fraud-verified-2.png)
-
----
+![Campaign Details](Screenshots/Screenshot%20(1080).png)
+![MetaMask — Donate to Campaign](Screenshots/Screenshot%20(1081).png)
+![Post-Donation Fraud Score](Screenshots/Screenshot%20(1082).png)
+![Blockchain Verification](Screenshots/Screenshot%20(1086).png)
 
 ### Browse Campaigns
+![All Campaigns](Screenshots/Screenshot%20(1088).png)
 
-Users can browse all active campaigns with funding progress, deadlines, and fraud status indicators.
-
-![All Campaigns](Screenshots/08-all-campaigns.png)
-
----
-
-### Withdraw & Refund Dashboard
-
-Campaign owners can manage withdrawals after reaching the funding threshold. Donors can claim refunds for unsuccessful campaigns.
-
-![Withdraw Dashboard](Screenshots/09-withdraw-dashboard.png)
-
-> **Note:** Refund workflow screenshots will be added after final testing.
-
----
+### Withdraw & Refund
+![Withdraw Dashboard — Active](Screenshots/Screenshot%20(1092).png)
+![Withdraw Dashboard — Successful Campaign](Screenshots/Screenshot%20(1102).png)
+![MetaMask — Withdraw Confirmation](Screenshots/Screenshot%20(1103).png)
+![Withdrawal Successful](Screenshots/Screenshot%20(1104).png)
+*(Refund flow screenshot pending — will be added after testing.)*
 
 ### User Dashboard
-
-The profile dashboard summarizes campaigns created, donations, funds raised, and blockchain activity.
-
-![User Dashboard](Screenshots/10-user-dashboard.png)
-
----
-
-### Successful Withdrawal
-
-The withdrawal process is completed through MetaMask confirmation and recorded on-chain.
-
-![Withdraw Confirmation](Screenshots/11-withdraw-confirm.png)
-
-![MetaMask Withdrawal](Screenshots/11-withdraw-metamask.png)
-
-![Withdrawal Successful](Screenshots/11-withdraw-success.png)
-
----
+![Profile Dashboard](Screenshots/Screenshot%20(1096).png)
 
 ### Blockchain Transaction History
-
-Every campaign creation, donation, withdrawal, and refund is permanently recorded and displayed through the transaction history page.
-
-![Transaction History](Screenshots/12-transaction-history.png)
-
----
+![Transaction History](Screenshots/Screenshot%20(1105).png)
 
 ### Inactive / Completed Campaigns
+![Inactive Campaigns](Screenshots/Screenshot%20(1106).png)
 
-Campaigns that have reached their deadline or have been completed are automatically moved to the inactive campaigns section.
-
-![Inactive Campaigns](Screenshots/13-inactive-campaigns.png)
 ---
 
 ## Tech Stack
@@ -247,10 +196,7 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Author
 
-Built by Thanushree as a final-year project.
+Built by [Your Name] as a final-year project.
