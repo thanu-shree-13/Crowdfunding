@@ -39,47 +39,47 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 
 ## Screenshots
 
-> Screenshots are stored in the `screenshots/` folder of this repo, referenced below by their original filenames.
+> Screenshots are stored in the `Screenshots/` folder of this repo, referenced below by their original filenames.
 
 ### Homepage
-![Homepage](screenshots/Screenshot%20(1075).png)
+![Homepage](Screenshots/Screenshot%20(1075).png)
 
 ### Creating a Campaign (AI-Assisted)
 Describe a campaign idea in plain language — the AI assistant generates a title and description, and produces a live fraud-risk score with visible risk factors.
 
-![Create Campaign](screenshots/Screenshot%20(1076).png)
-![AI-Generated Description & Fraud Score](screenshots/Screenshot%20(1077).png)
-![AI-Generated Description — Full](screenshots/Screenshot%20(1078).png)
+![Create Campaign](Screenshots/Screenshot%20(1076).png)
+![AI-Generated Description & Fraud Score](Screenshots/Screenshot%20(1077).png)
+![AI-Generated Description — Full](Screenshots/Screenshot%20(1078).png)
 
 ### On-Chain Campaign Creation
 Campaign metadata is written on-chain via a MetaMask transaction.
 
-![MetaMask — Create Campaign](screenshots/Screenshot%20(1079).png)
+![MetaMask — Create Campaign](Screenshots/Screenshot%20(1079).png)
 
 ### Campaign Details & Funding
-![Campaign Details](screenshots/Screenshot%20(1080).png)
-![MetaMask — Donate to Campaign](screenshots/Screenshot%20(1081).png)
-![Post-Donation Fraud Score](screenshots/Screenshot%20(1082).png)
-![Blockchain Verification](screenshots/Screenshot%20(1086).png)
+![Campaign Details](Screenshots/Screenshot%20(1080).png)
+![MetaMask — Donate to Campaign](Screenshots/Screenshot%20(1081).png)
+![Post-Donation Fraud Score](Screenshots/Screenshot%20(1082).png)
+![Blockchain Verification](Screenshots/Screenshot%20(1086).png)
 
 ### Browse Campaigns
-![All Campaigns](screenshots/Screenshot%20(1088).png)
+![All Campaigns](Screenshots/Screenshot%20(1088).png)
 
 ### Withdraw & Refund
-![Withdraw Dashboard — Active](screenshots/Screenshot%20(1092).png)
-![Withdraw Dashboard — Successful Campaign](screenshots/Screenshot%20(1102).png)
-![MetaMask — Withdraw Confirmation](screenshots/Screenshot%20(1103).png)
-![Withdrawal Successful](screenshots/Screenshot%20(1104).png)
+![Withdraw Dashboard — Active](Screenshots/Screenshot%20(1092).png)
+![Withdraw Dashboard — Successful Campaign](Screenshots/Screenshot%20(1102).png)
+![MetaMask — Withdraw Confirmation](Screenshots/Screenshot%20(1103).png)
+![Withdrawal Successful](Screenshots/Screenshot%20(1104).png)
 *(Refund flow screenshot pending — will be added after testing.)*
 
 ### User Dashboard
-![Profile Dashboard](screenshots/Screenshot%20(1096).png)
+![Profile Dashboard](Screenshots/Screenshot%20(1096).png)
 
 ### Blockchain Transaction History
-![Transaction History](screenshots/Screenshot%20(1105).png)
+![Transaction History](Screenshots/Screenshot%20(1105).png)
 
 ### Inactive / Completed Campaigns
-![Inactive Campaigns](screenshots/Screenshot%20(1106).png)
+![Inactive Campaigns](Screenshots/Screenshot%20(1106).png)
 
 ---
 
