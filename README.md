@@ -70,7 +70,12 @@ Campaign metadata is written on-chain via a MetaMask transaction.
 ![Withdraw Dashboard — Successful Campaign](Screenshots/Screenshot%20(1102).png)
 ![MetaMask — Withdraw Confirmation](Screenshots/Screenshot%20(1103).png)
 ![Withdrawal Successful](Screenshots/Screenshot%20(1104).png)
-*(Refund flow screenshot pending — will be added after testing.)*
+
+**Refund Flow** — donors reclaim funds from a campaign that ended without meeting its threshold.
+
+![Claim Refund — Ended Campaign](Screenshots/Screenshot%202026-07-28%20115454.png)
+![MetaMask — Refund Confirmation](Screenshots/Screenshot%20(1122).png)
+![Refund Reflected in Transaction History](Screenshots/Screenshot%20(1124).png)
 
 ### User Dashboard
 ![Profile Dashboard](Screenshots/Screenshot%20(1096).png)
@@ -196,7 +201,6 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ---
 
-
 ## Author
 
-Built by [Your Name] as a final-year project.
+Built by Thanushree as a final-year project.
