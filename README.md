@@ -17,7 +17,7 @@ A full-stack Web3 crowdfunding platform built on Ethereum, featuring on-chain es
 - [How It Works](#how-it-works)
 - [Known Limitations](#known-limitations)
 - [Roadmap](#roadmap)
-- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -203,4 +203,4 @@ npx hardhat run scripts/deploy.js --network sepolia
 
 ## Author
 
-Built by Thanushree as a final-year project.
+Built by [Your Name] as a final-year project.
